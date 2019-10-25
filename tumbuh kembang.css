@@ -1,0 +1,79 @@
+header{
+    height: 10vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-area: "header";
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5vw;
+    background-color: #9BCBEB;
+    text-decoration: none;
+}
+.homepage-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    height: 5vh;
+    margin-right: 400px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+
+}    
+.profil img{
+    width: 45px;
+}
+/*Navigasi*/
+nav ul{
+    float: right;
+    display: flex;
+    list-style-type: none;
+}
+nav a{
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 10px 25px; /*padding item dengan item lainnya*/
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    float: left;
+    text-decoration: none;
+    color: rgb(60,60,60);
+    padding: 5px 20px;
+}
+.kiri{
+    margin-left: 40px;
+    background-size: cover;
+    float: left;
+}
+.kanan{
+    float: right;
+    margin-right: 40px;
+}
+.gmbr img{
+    width: 100%;
+    margin: 30px;
+}
+.col5{
+    width: 50%;
+    float: left;
+}
+button{
+    margin: auto;
+    width: 120px;
+    height: 28px;
+    border: inherit;
+    border-radius: 15px;
+    font-family:Lucida Fax ;
+    position:inherit;    
+    border-color: white;
+    font-size: 10px
+}

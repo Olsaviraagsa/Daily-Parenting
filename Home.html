@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>H O M E</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<script type="text/javascript">
+	var tanggallengkap = new String();
+    var namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
+    namahari = namahari.split(" ");
+    var namabulan = ("Januari Februari Maret April Mei Juni Juli Agustus September Oktober November Desember");
+    namabulan = namabulan.split(" ");
+    var tgl = new Date();
+    var hari = tgl.getDay();
+    var tanggal = tgl.getDate();
+    var bulan = tgl.getMonth();
+    var tahun = tgl.getFullYear();
+    tanggallengkap = namahari[hari] + ", " +tanggal + " " + namabulan[bulan] + " " + tahun;
+    document.getElementById("tanggal").write = tanggallengkap;
+</script>
+</head>
+<body>
+	<header>
+		<p class="homepage-link">D A I L Y P A R E N T I N G</p>
+		<nav>
+			<ul>
+				<li><a href="Home.html">HOME</a></li>
+				<li><a href="tumbuh kembang.html">TUMBUH KEMBANG</a></li>
+				<li><a href="kesehatan.html">KESEHATAN</a></li>
+				<li><a href="stimulasi.html">STIMULASI</a></li>
+			</ul>
+		</nav>
+		<div class="profil">
+			<a href="index.html"><img src="Group 17.png"></a>
+		</div>	
+	</header>
+
+	<div class="kiri">
+		<p id="tanggal"><script type="text/javascript">
+        document.write(tanggallengkap)
+      </script></script></p>
+
+    <div class="gmbr">
+     	<img src="Group 26.png">
+    </div>
+	</div>
+
+	<div class="kanan">
+		<b>ARTIKEL TERPOPULER</b>
+		<table>
+  			<tr>
+  				<td width="50"><img src="ASI.jpg" width="50"></td>
+    			<td height="60"><a href="asi.html"> Cara Memperlancar Produksi ASI </a></td>
+  			</tr>
+  			<tr>
+  				<td width="50"><img src="rwl.jpg" width="50"></td>
+    			<td height="60"><a href="bayirewel.html"> Ini Penyebab Bayi Anda Rewel Setelah Imunisasi</a></td>
+  			</tr>
+  			<tr>
+  				<td width="50"><img src="mpasi.jpg" width="50"></td>
+    			<td height="60"><a href="mpasi.html"> MPASI untuk Rangsang Pertumbuhan Gigi Bayi</a></td>
+  			</tr>
+  			<tr>
+  				<td width="50"><img src="demam.jpg" width="50"></td>
+    			<td height="60"><a href="demam.html"> Tips Atasi Demam pada Bayi Anda</a></td>
+  			</tr>
+  			<tr>
+  				<td width="50"><img src="susah.jpg" width="50"></td>
+    			<td height="60"><a href="susah.html"> Apa yang Menyebabkan Anak Susah Makan?</a></td>
+  			</tr>
+		</table>
+	</div>
+</body>
+</html>

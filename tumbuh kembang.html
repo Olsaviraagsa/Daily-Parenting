@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>T U M B U H K E M B A N G</title>
+	<link rel="stylesheet" type="text/css" href="tumbuh kembang.css">
+	<script type="text/javascript">
+	var tanggallengkap = new String();
+    var namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
+    namahari = namahari.split(" ");
+    var namabulan = ("Januari Februari Maret April Mei Juni Juli Agustus September Oktober November Desember");
+    namabulan = namabulan.split(" ");
+    var tgl = new Date();
+    var hari = tgl.getDay();
+    var tanggal = tgl.getDate();
+    var bulan = tgl.getMonth();
+    var tahun = tgl.getFullYear();
+    tanggallengkap = namahari[hari] + ", " +tanggal + " " + namabulan[bulan] + " " + tahun;
+    document.getElementById("tanggal").write = tanggallengkap;
+</script>
+</head>
+<body>
+	<header>
+		<p class="homepage-link">D A I L Y P A R E N T I N G</p>
+		<nav>
+			<ul>
+				<li><a href="Home.html">HOME</a></li>
+				<li><a href="tumbuh kembang.html">TUMBUH KEMBANG</a></li>
+				<li><a href="kesehatan.html">KESEHATAN</a></li>
+				<li><a href="stimulasi.html">STIMULASI</a></li>
+			</ul>
+		</nav>
+		<div class="profil">
+			<img src="Group 17.PNG">
+		</div>
+	</header>
+
+	
+		<p id="tanggal"><script type="text/javascript">
+        document.write(tanggallengkap)
+      </script></script></p>
+
+     	<div class="col5">
+     		<img class="gmbr" src="GRAFIK.png">
+     	</div>
+
+     	<div class="col5" style="float: right;">
+     		<p><b>NAIRA MAULIDIYAH SUKARTO</b></p>
+     		<p><b>Pertumbuhan Anak</b></p>
+     		<p>Jenis kelamin: Perempuan</p>
+     		<p>Anak ke: 2</p>
+     		<p>Usia Anak: 11 bulan 2 minggu</p>
+     		<p>Tinggi Badan(waktu lahir): 45 cm</p>
+			<p>Tinggi Badan(sekarang): 90 cm</p>
+			<p>Berat Badan(waktu lahir): 4.5 kg</p>
+			<p>Berat Badan(sekarang): 13 kg</p>
+			<p><b>Perkembangan Anak</b></p>
+			<input type="checkbox" name="Perkembangan1">Hingga saat ini, anak masih mengonsumsi ASI<br>
+			<input type="checkbox" name="Perkembangan2">Mulai merangkak<br>
+			<input type="checkbox" name="Perkembangan3">Mulai belajar berjalan<br>
+			<input type="checkbox" name="Perkembangan4">Dapat mengucapkan beberapa kata dengan jelas<br>
+			<input type="checkbox" name="Perkembangan5">Merespon sekitar dengan baik<br><br>
+			<button>Simpan</button>
+		</div>
+
+</body>
+</html>

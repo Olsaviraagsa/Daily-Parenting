@@ -1,0 +1,63 @@
+header{
+    height: 10vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-area: "header";
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5vw;
+    background-color: #9BCBEB;
+    text-decoration: none;
+}
+.homepage-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    height: 5vh;
+    margin-right: 400px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+
+}    
+.profil img{
+    width: 45px;
+}
+/*Navigasi*/
+nav ul{
+    float: right;
+    display: flex;
+    list-style-type: none;
+}
+nav a{
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 10px 25px;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    float: left;
+    text-decoration: none;
+    color: rgb(60,60,60);
+    padding: 5px 20px;
+}
+.kiri{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.kanan{
+    float: right;
+    margin-right: 100px;
+    margin-top: -200px;
+}
+.gmbr img{
+    width: 600px;
+}
