@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>L O G I N</title>
-	<link rel="stylesheet" type="text/css" href="Login.css">
+	<link rel="stylesheet" type="text/css" href="css/Login.css">
 </head>
 <body>
 	<header>
@@ -19,16 +19,30 @@
 	<center><div class="box">
 		<H3>L O G I N</H3>
 		<center>
-			<input type="username" name="username" placeholder="nama pengguna"><br><br>
-			<input type="password" name="password" placeholder="kata sandi"><br><br>
-			
-			<a href="Home.html"><button type="submit" name="Masuk">MASUK</button></a>
+			<input id="uname" type="username" name="username" placeholder="nama pengguna"><br><br>
+			<input id="passwd" type="password" name="password" placeholder="kata sandi"><br><br>
+
+			<button onclick="validateLogin()">MASUK</button>
+
+
 		</center>
 		<div class="Lupa">
 			<a href="konfirmasi.html"><p>Lupa kata sandi?</p></a>
 		</div>
-	</center>	
+	</center>
 	</div>
 
+	<script type="text/javascript">
+		function validateLogin() {
+		  var un = document.getElementById('uname').value;
+		  var pw = document.getElementById('passwd').value;
+
+		  if(un === 'admin' && pw === '123'){
+			  window.location.href = 'Home.html';
+		  } else{
+			  alert("Login gagal");
+		  }
+		}
+	</script>
 </body>
 </html>

@@ -2,12 +2,13 @@
 <html>
 <head>
 	<title>D A I L Y P A R E N T I N G</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<style type="text/css">
-		/*Background*/
+		/Background/
 		body{
 			margin: 0px;
     		padding: 0px;
-    		background:url("bg.jpeg");
+    		background:url("img/bg.jpeg");
     		background-repeat: no-repeat;
     		background-size: 100%;
 		}
@@ -21,7 +22,7 @@
    		 align-items: center;
    		 padding-right: 5vw;
 		}
-		/*Navigasi*/
+		/Navigasi/
 		nav ul{
   		  float: right;
   		  display: flex;
@@ -33,9 +34,9 @@
     		text-decoration: none;
     		color: black;
     		font-size: 12px;
-    		padding: 10px 25px; /*padding item dengan item lainnya*/
+    		padding: 10px 25px; /padding item dengan item lainnya/
 		}
-		/*kotak transparan*/
+		/kotak transparan/
 		.box {
 			background: rgba(155, 195, 223, 0.8);
 			margin-top: 270px;
@@ -44,14 +45,14 @@
 			height: 250px;
 			position: static;
 		}
-		/*isi dalam kotak*/
+		/isi dalam kotak/
 		.content {
 			font-family: Lucida Fax;
 			font-size: 20px;
 			color: black;
 			text-align: center;
 		}
-		/*tombol*/
+		/tombol/
 		input[type="submit"]{
 		    margin: auto;
 		    width: 120px;
@@ -60,9 +61,9 @@
 		    border: inherit;
 		    border-radius: 12px;
 		    font-family:Lucida Fax ;
-		    text-transform: uppercase;  
+		    text-transform: uppercase;
 		    cursor:pointer;
-		}		
+		}
 
 	</style>
 </head>
@@ -87,11 +88,25 @@
 		<!-- Tombol -->
 		<center>
 			<a href="Login.html"><input type="submit" name="signup-button" value="Masuk"></a>
-			<a href="testimoni.html"><input type="submit" name="signup-button" value="Testimoni"></a>
 		</center>
-		
 	</div>
-	
+
+	<div class="modal">
+		<div class="mod-content">
+			<div class="close">X</div>
+			<h1>Selamat Datang!!!</h1>
+		</div>
+	</div>
+
+<script src="script/jquery.js" charset="utf-8"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.close').click(function() {
+			$('.mod-content').animate({bottom : '-2000px'},1500);
+			$('.modal').delay('fast').fadeOut();
+		})
+	})
+</script>
 
 </body>
 </html>

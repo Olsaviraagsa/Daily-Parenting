@@ -1,0 +1,59 @@
+body{
+	background-color: #f9f9f9;
+	margin: 0px;
+	background-size: cover;
+}
+header{
+    height: 10vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-area: "header";
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5vw;
+    background-color: #9BCBEB;
+}
+.homepage-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    height: 5vh;
+    margin-right: 580px;
+}
+nav ul{
+    float: right;
+    display: flex;
+    list-style-type: none;
+}
+nav a{
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 10px 25px; /*padding item dengan item lainnya*/
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	padding-top: 50px;
+}
+
+.tabel {
+	margin: 100px;
+	border: 2px;
+}
+
+.tabel{
+	width: 450px;
+	height: 300px;
+	border: 1px;
+}
+.image {
+	margin: 50px;
+	margin-right: 10px;
+	width: 500px;
+	height: 400px;
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "_id": "5df24010b87e8b8070f15aa4",
+    "index": 0,
+    "Umur": "0",
+    "jenisImunisasi": [
+      {
+        "id": 0,
+        "name": "Hepatitis B-1",
+      },
+      {
+        "id": 1,
+        "name": "Polio 0",
+      },
+      {
+        "id": 2,
+        "name": " BCG ",
+      }
+    ]
+  },
+  {
+    "_id": "5df240106fd1ab79de0d1f67",
+    "index": 1,
+    "Umur": "2",
+    "jenisImunisasi": [
+      {
+        "id": 0,
+        "name": " Hepatitis B-2",
+      },
+      {
+        "id": 1,
+        "name": " Polio 1",
+      },
+      {
+        "id": 2,
+        "name": " DPT 1",
+      }
+    ]
+  },
+  {
+    "_id": "5df240107deb78d67a9b394e",
+    "index": 2,
+    "Umur": "3",
+    "jenisImunisasi": [
+      {
+        "id": 0,
+        "name": " Hib 1",
+      },
+      {
+        "id": 1,
+        "name": " PCV 1",
+      },
+      {
+        "id": 2,
+        "name": " Rotavirus 1",
+      }
+    ]
+  },
+  {
+    "_id": "5df2401042313f94a0e07c32",
+    "index": 3,
+    "Umur": "4",
+    "jenisImunisasi": [
+      {
+        "id": 0,
+        "name": " Hepatitis B-3",
+      },
+      {
+        "id": 1,
+        "name": " Polio 2",
+      },
+      {
+        "id": 2,
+        "name": " DPT 2",
+      }
+    ]
+  },
+  {
+    "_id": "5df2401099a031bfdb7aa47c",
+    "index": 4,
+    "Umur": "6",
+    "jenisImunisasi": [
+      {
+        "id": 0,
+        "name": " Hib 2",
+      },
+      {
+        "id": 1,
+        "name": " Hepatitis B-4",
+      },
+      {
+        "id": 2,
+        "name": " Polio 3",
+      }
+    ]
+  },
+  {
+    "_id": "5df2401003ccc72480424cb5",
+    "index": 5,
+    "Umur": "9",
+    "jenisImunisasi": [
+      {
+        "id": 0,
+        "name": " DPT 3",
+      },
+      {
+        "id": 1,
+        "name": " Hib 3",
+      },
+      {
+        "id": 2,
+        "name": " PCV 2",
+      }
+    ]
+  },
+  {
+    "_id": "5df2401003ccc72480424cb5",
+    "index": 5,
+    "Umur": "12",
+    "jenisImunisasi": [
+      {
+        "id": 0,
+        "name": " Rotavirus 2",
+      },
+      {
+        "id": 1,
+        "name": " Hepatitis A",
+      },
+      {
+        "id": 2,
+        "name": " PCV 3",
+      }
+    ]
+  },
+  {
+    "_id": "5df2401003ccc72480424cb5",
+    "index": 5,
+    "Umur": "15",
+    "jenisImunisasi": [
+      {
+        "id": 0,
+        "name": " Rotavirus 3",
+      },
+      {
+        "id": 1,
+        "name": " Influenza",
+      },
+      {
+        "id": 2,
+        "name": " Campak 1",
+      }
+    ]
+  },
+  {
+    "_id": "5df2401003ccc72480424cb5",
+    "index": 5,
+    "Umur": "18",
+    "jenisImunisasi": [
+      {
+        "id": 0,
+        "name": " Varisela",
+      },
+      {
+        "id": 1,
+        "name": " PCV 4",
+      },
+      {
+        "id": 2,
+        "name": " Hib 4",
+      }
+    ]
+  },
+  {
+    "_id": "5df2401003ccc72480424cb5",
+    "index": 5,
+    "Umur": "24",
+    "jenisImunisasi": [
+      {
+        "id": 0,
+        "name": " MMR 1",
+      },
+      {
+        "id": 1,
+        "name": " Polio 4",
+      },
+      {
+        "id": 2,
+        "name": " Tifoid ",
+      }
+    ]
+  }
+]
